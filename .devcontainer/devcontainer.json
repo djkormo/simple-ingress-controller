@@ -6,7 +6,12 @@
         "yzhang.markdown-all-in-one",
         "DavidAnson.vscode-markdownlint",
         "bierner.markdown-emoji",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "golang.go",
+        "redhat.vscode-yaml",
+        "mhutchie.git-graph",
+        "adamhartford.vscode-base64"
       ]
     }
   },

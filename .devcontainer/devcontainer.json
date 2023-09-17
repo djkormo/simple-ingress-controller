@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "sh .install/operator-sdk-install.bash"
+}

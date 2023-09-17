@@ -15,5 +15,5 @@
       ]
     }
   },
-  "postCreateCommand": ["/bin/sh", "-c", "/bin/sh .install/operator-sdk-install.sh >> 2>&1 /var/logs/install.log"],
+  "postCreateCommand": ["/bin/sh", "-c", "/bin/sh .install/operator-sdk-install.sh >> 2>&1 /var/logs/install.log"]
 }

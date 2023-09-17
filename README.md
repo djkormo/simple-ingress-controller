@@ -5,6 +5,7 @@ Based on
 
 https://www.doxsey.net/blog/how-to-build-a-custom-kubernetes-ingress-controller-in-go/
 
+https://www.josephguadagno.net/2022/12/10/getting-started-with-developer-containers
 
 
 ### 1.1 Initialise operator

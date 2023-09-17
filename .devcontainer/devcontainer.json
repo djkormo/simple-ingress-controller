@@ -1,3 +1,14 @@
 {
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "bierner.markdown-emoji",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
   "postCreateCommand": "sh .install/operator-sdk-install.bash"
 }

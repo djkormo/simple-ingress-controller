@@ -1,4 +1,4 @@
-name: project operator pipeline
+name: simple ingress controller pipeline
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
   buildDocker:
     runs-on: ubuntu-latest
     env:
-      APP_NAME: djkormo-go-project-operator
+      APP_NAME: djkormo-simple-ingress-controller
 
     steps:
     - uses: actions/checkout@v2
@@ -63,7 +63,7 @@ jobs:
     - name: Run Trivy vulnerability scanner
       uses: aquasecurity/trivy-action@master
       with:
-        image-ref: djkormo/go-project-operator:main
+        image-ref: djkormo/simple-ingress-controller:main
         format: 'table'
         exit-code: '1'
         ignore-unfixed: true

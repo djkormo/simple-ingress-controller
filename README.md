@@ -11,23 +11,10 @@ https://www.josephguadagno.net/2022/12/10/getting-started-with-developer-contain
 ### 1.1 Initialise operator
 
 ```bash
-operator-sdk init --repo=github.com/djkormo/simple-ingress-controller --skip-go-version-check
+operator-sdk init --domain=djkormo.github.io --repo=github.com/djkormo/simple-ingress-controller --skip-go-version-check
 ```
 
-### 1.2 create Ingress API
+Ingress controller uses only
+Ingress, Service and Secret resources.
 
-```bash
-operator-sdk create api --group=networking.k8s.io --version=v1 --kind=Ingress --resource
-```
 
-### 1.3 create Secret API
-
-```bash
-operator-sdk create api --group=* --version=v1 --kind=Secret --resource
-```
-
-### 1.3 create Service API
-
-```bash
-operator-sdk create api --group=* --version=v1 --kind=Service --resource
-```

@@ -1,6 +1,12 @@
 # simple-ingress-controller
 Building simple ingress controller in go
 
+Based on
+
+https://www.doxsey.net/blog/how-to-build-a-custom-kubernetes-ingress-controller-in-go/
+
+
+
 ### 1.1 Initialise operator
 
 ```bash

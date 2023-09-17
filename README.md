@@ -17,6 +17,6 @@ operator-sdk init --domain=networking.k8s.io --repo=github.com/djkormo/simple-in
 ### 1.2 create Ingress API
 
 ```bash
-operator-sdk create api --group=networking.k8s.io --version=v1 --kind=Ingress --controller --resource
+operator-sdk create api --group=networking.k8s.io --version=v1 --kind=Ingress --resource
 ```
 

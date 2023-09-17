@@ -19,7 +19,7 @@ jobs:
   buildDocker:
     runs-on: ubuntu-latest
     env:
-      APP_NAME: djkormo-simple-ingress-controller
+      APP_NAME: simple-ingress-controller
 
     steps:
     - uses: actions/checkout@v2
@@ -33,7 +33,7 @@ jobs:
       with:
       # list of Docker images to use as base name for tags
         images: |
-          djkormo/go-project-operator
+          djkormo/simple-ingress-controller
         # generate Docker tags based on the following events/attributes
         tags: |
           type=schedule

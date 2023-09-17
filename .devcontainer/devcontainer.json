@@ -15,5 +15,5 @@
       ]
     }
   },
-  "postCreateCommand": ["sh .install/operator-sdk-install.sh 2>&1 | tee -a /var/log/install.logs"]
+  "postCreateCommand": "sh .install/operator-sdk-install.sh 2>&1 | tee -a /var/log/install.logs"
 }
